@@ -46,6 +46,22 @@ a {
   cursor: pointer;
 }
 
+.session__heading {
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+  margin-bottom: 18px;
+}
+
+.session__description {
+  color: #575f66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67; /* 166.667% */
+}
+
 /*********** Header CSS ***********/
 .header {
   min-height: 100vh;
@@ -207,4 +223,82 @@ a {
 .hero__img:last-child {
   width: 210px;
   height: 410px;
+}
+
+/*********** Service CSS ***********/
+.service {
+  margin-top: 170px;
+}
+
+.service__description,
+.service__headding {
+  text-align: center;
+}
+
+.service__description {
+  max-width: 468px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service__row {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service__image {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.service-item {
+  display: flex;
+  width: 470px;
+  border-radius: 10px;
+  padding: 21px 0px 20px 22px;
+}
+
+.service-item:hover {
+  background: #fff;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.service-item:hover .service-item__icon {
+  background: #2e80ce;
+  color: #fff;
+}
+
+.service-item__icon {
+  width: 60px;
+  height: 60px;
+  background-color: #eff6fd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 21px 19px 0px 21px; */
+  margin-right: 19px;
+}
+
+.service-item__heading {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.service-item__desc {
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+  max-width: 388px;
+}
+
+.service__list {
+  margin-bottom: 75px;
 }
