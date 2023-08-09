@@ -363,3 +363,42 @@ a {
   line-height: 1.75;
   margin-top: 18px;
 }
+
+/*********** Features CSS ***********/
+
+.feature {
+  margin-top: 170px;
+}
+
+.feature__media {
+  width: 48%;
+}
+
+.feature__images {
+  position: relative;
+  padding-right: 58px;
+  padding-bottom: 121px;
+}
+
+.feature__img {
+  width: 512px;
+  height: 370px;
+  object-fit: cover;
+}
+
+.feature__img:last-child {
+  width: 332px;
+  height: 370px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.feature__inner {
+  display: flex;
+  gap: 130px;
+}
+
+.feature__action {
+  margin-top: 38px;
+}
