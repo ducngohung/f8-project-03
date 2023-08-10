@@ -402,3 +402,69 @@ a {
 .feature__action {
   margin-top: 38px;
 }
+
+/*********** Team CSS ***********/
+.team {
+  margin-top: 170px;
+}
+
+.team__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team__cta {
+  margin-top: 38px;
+  margin-bottom: 70px;
+}
+
+.team__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+}
+
+.team-card__bg {
+  width: 270px;
+  height: 318px;
+  border-radius: 6px;
+  background: #eaf6ff;
+  padding: 28px 4px 0px 4px;
+  overflow: hidden;
+}
+
+.team-card__thumb {
+  /* display: block; */
+  width: 262px;
+  height: 290px;
+  border-radius: 6px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-info {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-info__name {
+  color: #10375c;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.75; /* 175% */
+}
+
+.team-info__title {
+  color: #575f66;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.85; /* 185.714% */
+}
