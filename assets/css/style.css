@@ -468,3 +468,34 @@ a {
   font-weight: 300;
   line-height: 1.85; /* 185.714% */
 }
+
+.team-control {
+  margin-top: 38px;
+  display: flex;
+  column-gap: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-control__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  outline: none;
+  border-radius: 50%;
+  border: 1px solid #575f66;
+  background: #fff;
+  color: #575f66;
+}
+
+.team-control__btn:hover {
+  background: #2e80ce;
+  color: #fff;
+  border: 1px solid #2e80ce;
+}
+
+.team-control__btn-next {
+  transform: rotate(180deg);
+}
