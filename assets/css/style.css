@@ -504,3 +504,50 @@ a {
 .team-control__btn-next {
   transform: rotate(180deg);
 }
+
+/*********** App Install CSS ***********/
+.appinstall {
+  margin-top: 265px;
+}
+
+.appinstall__inner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2e80ce;
+  padding: 0px 70px;
+  align-items: center;
+}
+
+.appinstall__mobile {
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  display: block;
+  margin-top: -95px;
+}
+
+.appinstall__content {
+  max-width: 586px;
+}
+
+.appinstall__heading {
+  max-width: 489px;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+  margin-bottom: 18px;
+}
+
+.appinstall__desc {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67; /* 166.667% */
+  margin-bottom: 38px;
+}
+
+.appinstall__row img:first-child {
+  margin-right: 28px;
+}
