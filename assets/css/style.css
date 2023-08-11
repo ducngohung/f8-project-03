@@ -552,7 +552,7 @@ a {
   margin-right: 28px;
 }
 
-/*********** News Install CSS ***********/
+/*********** News CSS ***********/
 .news {
   margin-top: 170px;
 }
@@ -648,4 +648,38 @@ a {
 
 .news-item__more:hover {
   text-decoration: underline;
+}
+
+/*********** Appointment CSS ***********/
+.appointment {
+  margin-top: 170px;
+}
+
+.appointment__inner {
+  background: #f6fbff;
+  padding: 100px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appinstall__heading {
+  max-width: 813px;
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+}
+
+.appointment__desc {
+  max-width: 617px;
+  /* display: inline-block; */
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+  margin-top: 38px;
+  margin-bottom: 38px;
 }
